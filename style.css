@@ -1,0 +1,56 @@
+h1 {
+    color: black;
+}
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.datepicker-date-display {
+  background-color: rgb(90, 49, 90);
+}
+
+.datepicker-cancel, .datepicker-clear, 
+.datepicker-today, .datepicker-done {
+  color: rgb(90, 49, 90);
+}
+
+button.datepiker-day-button {
+  color: rgb(90, 49, 90);
+}
+
+.timepicker-digital-display {
+  background-color:rgb(96, 133, 107);
+}
+
+.timepicker-plate {
+  background-color: rgb(96, 133, 107);
+}
+
+.timepicker-tick {
+  color: white
+}
+
+.timepicker-close {
+  color: rgb(96, 133, 107)
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid white;
+}
+
+[type="radio"]:checked+span:before, [type="radio"].with-gap:checked+span:before {
+  background-color: crimson;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+  background-color: crimson;
+}
+
